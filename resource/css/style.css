@@ -1,0 +1,613 @@
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #CAA765 url(../image/page-wrapper-bg.png) repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #CAA765;
+}
+
+hr {
+    color: #A26500;    
+}
+
+#wrapper {
+	margin: 0px auto;
+	padding: 0px;
+}
+
+/* Header */
+
+#header {
+	overflow: hidden;
+	width: 820px;
+	height: 90px;
+	margin: 0px auto;
+        padding-top: 20px;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	height: 60px;
+	margin: 0px;
+        padding-left: 10px;
+	color: #FFFFFF;
+        text-shadow: 1px 2px 0px #51430E;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        font-stretch: semi-expanded;
+	font-size: 50px;
+        font-weight: bold;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+
+/* Join / Login */
+
+#join {
+	color: #FFFFFF;
+        letter-spacing: 2px;
+	font-family: 'Abel', sans-serif;
+	font-size: 14px;
+        text-shadow: 1px 2px 0px #51430E;
+        font-weight: normal;
+}
+
+#join a {
+	padding-left: 10px;
+        background: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#join a:hover {
+	color: #51430E;
+        text-shadow: 1px 2px 0px #EADCA7;
+}
+
+
+/* Menu */
+
+#menu {
+	width: 820px;
+	height: 60px;
+	margin: 0px auto;
+	padding: 0px 40px;
+	background: #401F13;
+}
+
+#menu ul {
+	margin: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	padding: 0px 0px 0px 0px;
+        text-align:center;
+	float: left;
+}
+
+#menu a {
+	display: block;
+	height: 40px;
+	margin-right: 1px;
+	padding: 20px 20px 0px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Abel', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu .current_page_item a {
+	background: #636900;
+}
+
+#menu a:hover {
+	background: #636900;
+}
+
+#splash {
+	width: 1000px;
+	height: 260px;
+	margin: 0px auto;
+	background: url(../image/img05.jpg) no-repeat left top;
+}
+
+/* Page */
+
+#page {
+	overflow: hidden;
+	width: 820px;
+	margin: 0px auto;
+	padding: 20px 40px;
+	background: #FFFFFF url(../image/page-gradient-bg.png) repeat-x left bottom;
+	box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 520px;
+	padding: 0px 20px;
+}
+
+.post {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #BDBDBD;
+}
+
+.post .title {
+	color: #A26500;
+        font-weight: bolder;
+}
+
+.post .title a {
+	border: none;
+	color: #A26500;
+}
+
+.post .entry {
+	text-align: justify;
+	margin-bottom: 25px;
+	padding: 10px 0px 0px 0px;
+}
+
+.links {
+	display: block;
+	width: 96px;
+	padding: 2px 0px 2px 0px;
+	background: #A53602;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.imglink {
+    border-style: none;
+    border:0px solid white;
+}
+
+.helpbox{
+    display:block;
+    padding:10px;
+    border:3px solid #DDE5AA;
+    color:#51430E;
+    background:#ffffd5  url(ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x250.png) 50% 50% repeat-x;;
+    font-size:90%;
+    text-align:justify;
+    border-radius:10px;
+    -moz-border-radius:10px; /* Firefox 3.6 and earlier */
+}
+
+.helpbox a {
+    text-decoration: none;
+    color:#51430E;   
+}
+
+.helpbox a:hover {
+    text-decoration:underline;
+}
+
+.helpbox .slidetitle {
+    padding-bottom: 10px;
+    color: #A26500;
+    text-shadow: 0px 2px 2px #ECE0CC;
+    font-size:200%;        
+    font-weight:bolder;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-stretch:expanded;
+    letter-spacing: 2px;
+}
+
+.helpbox .slidetext {
+    font-size:130%;
+    text-shadow: 0px 5px 5px #E3D1B2;
+}
+/* FAQ */
+.answer
+{
+	font-size: 14px;
+        padding-left:30px;
+        color:#857B56;
+	text-align: justify;
+	}
+
+.question
+{
+	font-weight: bold;
+	font-size: 14px;
+	padding: 5px 10px 5px 25px;
+	color: #50400A;
+        text-align: justify;
+}
+
+/* Price Accordion */
+.trade{
+    text-shadow: 1px 1px 0px #ffffff;
+    display:inline-block;
+    width:90px;
+    font-size:115%    
+}
+
+.price-block{
+    width:220px;
+    display:inline-block;
+    padding-right:30px;
+    vertical-align:top
+}
+
+.save-block{
+    display:inline-block;
+    vertical-align:top
+}
+
+.price-title{
+    display:inline-block;
+    width:140px
+}
+
+.save-title{
+    display:inline-block;
+    width:80px
+}
+/* Footer */
+
+#footer {
+	width: 900px;
+	height: 90px;
+	margin: 0px auto;
+	background: url(../image/footer-shadow-bg.png) no-repeat left top;
+}
+
+#footer p {
+	margin: 0px;
+	padding-top: 30px;
+	line-height: normal;
+	text-transform: lowercase;
+	text-align: center;
+	text-shadow: 1px 2px 0px #D9B46F;
+	font-family: 'Abel', sans-serif;
+	font-size: 12px;
+	color: #3B1C11;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #3B1C11;
+}
+/*
+/* Button */
+/* http://www.cssbuttongenerator.com/ */
+/* http://form.jotform.com/form/10963527267
+ * Over all form style, just like body tag
+ *
+ * Input styles
+ */
+.form-textbox, .form-textarea, .form-dropdown, .form-radio-other-input, .form-captcha input, .form-list{
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    -moz-box-shadow:0 2px 3px rgba(0, 0, 0, 0.2) inset, 0 1px 0 rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow:0 2px 3px rgba(0, 0, 0, 0.2) inset, 0 1px 0 rgba(255, 255, 255, 0.75);
+    box-shadow:0 2px 3px rgba(0, 0, 0, 0.2) inset, 0 1px 0 rgba(255, 255, 255, 0.75);
+    background-color: #FFFFFF;
+    border:1px solid #999;
+    padding:3px 6px;
+    margin:2px;
+}
+
+/**
+ * When inputs got focus
+ */
+.form-textbox:focus, .form-textarea:focus, .form-dropdown:focus, .form-radio-other-input:focus,  .form-captcha input:focus{
+    border-color:#F4AD33;
+}
+
+
+/* Validation errors */
+.form-error{
+    background: none repeat scroll 0 0 #FF7A6C;
+    color: #FFFEFE;
+    text-shadow: 0px -1px 0px #C85757;
+    padding-left: 10px;
+ }
+
+/* Label */
+/* it works in IE9 but not in Chrome therefore it is put in style tag in head */
+.form-label{
+    display:inline-block;
+    float:left;
+    width:130px;
+    padding-right:5px;
+    text-align:right;
+ }
+
+/** http://www.w3schools.com/tags/ref_colorpicker.asp
+ * All Buttons and their states
+ */
+.form-submit-button
+{
+    -moz-border-radius:4px 4px;
+    -webkit-border-radius:4px 4px;
+    border-radius:4px 4px;
+    
+    -moz-box-shadow:0px 1px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow:0px 1px 0px rgba(255, 255, 255, 0.75);
+    box-shadow:0px 1px 0px rgba(255, 255, 255, 0.75);
+    
+    text-shadow:0px -1px 0px #C64F00;
+    
+    margin:2px;
+    padding:3px 18px;
+    border:1px solid #C64F00;
+    color:#fff;
+    font-size:12px;
+    background: #f9c667; /* old browsers */
+    background: -moz-linear-gradient(top, #FAA84C 0%, #FF7B0D 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FAA84C), color-stop(100%,#FF7B0D)); /* webkit */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FAA84C', endColorstr='#FF7B0D',GradientType=0 ); /* ie */
+}
+
+/* onmouseover */
+.form-submit-button:hover
+{
+    background: #FFDFA2; /* old browsers */
+    background: -moz-linear-gradient(top, #FBCB5D 0%, #EFA003 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBCB5D), color-stop(100%,#EFA003)); /* webkit */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FBCB5D', endColorstr='#EFA003',GradientType=0 ); /* ie */
+    border-color:#D08A01;
+}
+
+/* mousedown */
+.form-submit-button:active
+{
+    background: #CD7410; /* old browsers */
+    background: -moz-linear-gradient(top, #EFA003 0%, #FBCB5D 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EFA003), color-stop(100%,#FBCB5D)); /* webkit */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EFA003', endColorstr='#FBCB5D',GradientType=0 ); /* ie */
+    border-color:#D08A01;
+    -moz-box-shadow:0px 1px 0px rgba(255, 255, 255, 0.75), 0px 2px 4px rgba(0,0,0,.1) inset;
+    -webkit-box-shadow:0px 1px 0px rgba(255, 255, 255, 0.75), 0px 2px 4px rgba(0,0,0,.1) inset;
+    box-shadow:0px 1px 0px rgba(255, 255, 255, 0.75), 0px 2px 4px rgba(0,0,0,.1) inset;
+}
+
+/* form add */
+
+.form-frozen, .form-add
+{
+  background-color:#f7f2de;    
+  font-size:12px;
+  color:#b59620;
+  padding:3px 18px;
+  border-radius:4px;
+  border:1px solid #d7b225;
+}
+
+.form-add:hover
+{
+  background-color:#dfcc80;    
+  color:#302708;
+}
+
+.form-add:active
+{
+    border-color:#D08A01;
+}
+
+/* Book Front Cover */
+.frontcover 
+{
+    width: 128px;
+    height: 160px;
+    /* This centers the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* This adds the border */
+    padding:6px;
+    border:solid;
+    border-color: #FAF6E9 #EFE5BD #EFE5BD #FAF6E9;
+    border-width: 1px 3px 3px 1px;
+    background-color:white;
+}
+
+.frontcover :hover
+{    background-color:lemonchiffon;
+}
+/* Book List Table */
+
+#table-books
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	margin: 45px;
+	width: 700px;
+	text-align: left;
+	border-collapse: collapse;
+        border: 2px solid #DDD6BA;        
+}
+#table-books th
+{
+	font-weight: normal;
+	padding: 8px;
+	border-bottom: 1px solid #fff;
+	color: #51430E;
+        background:  #e2ba78 url(ui-lightness/images/ui-bg_highlight-hard_65_efe1af_1x100.png) 50% 50% repeat-x;
+        text-align: left;
+}
+#table-books td
+{
+	padding: 8px; 
+	border-bottom: 1px solid #fff;
+	color: #8D7518;
+	border-top: 1px solid #fff;
+	background: #F4EDD3;
+}
+#table-books tfoot tr td
+{
+	background: #EFE5BD;
+	font-size: 12px;
+	color: #8D7518;
+}
+#table-books tbody tr:hover td
+{
+	background: #FAF6E9 ;
+	color: #D5B94E;
+}
+#table-books tfoot tr td :hover
+{
+	color: #282107;
+}
+
+#table-books td a
+{
+    text-decoration: none;    
+    color: #8D7518;
+}
+
+#table-books tbody tr:hover td a
+{
+    text-decoration: none;    
+    color: #D5B94E;
+}
+
+/* Book Detail */
+
+#table-detail
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	margin: 45px;
+	width: 700px;
+	text-align: left;
+	border-collapse: collapse;
+        border: 2px solid #DDD6BA;
+}
+#table-detail th
+{
+    font-size: 15px;
+    font-weight: normal;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    color: #51430E;
+    background: #e2ba78 url(ui-lightness/images/ui-bg_highlight-hard_65_efe1af_1x100.png) 50% 50% repeat-x;
+    text-align: left;
+}
+#table-detail td
+{
+	padding: 10px; 
+	border-bottom: 1px solid #fff;
+	color: #8D7518;
+	border-top: 1px solid #fff;
+	background: #F4EDD3;
+}
+#table-detail a
+{
+    text-decoration: none;    
+    color: #51430E;
+}
+
+#table-detail tfoot tr td
+{
+	background: #EFE5BD;
+	font-size: 12px;
+	color: #8D7518;
+}
+/* Book Price Detail */
+
+#table-price
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	margin: 0px;
+	width: 700px;
+	text-align: left;
+	border-style: hidden;
+	border-collapse: collapse;
+        border-width:0px;
+}
+#table-price th
+{
+	font-weight: normal;
+	padding: 10px;
+	border-style: hidden;
+	color: #50400A;
+        background:transparent;
+}
+
+#table-price td
+{
+	padding: 5px; 
+	color: #8D7518;
+	background: transparent;
+	border-style: hidden;
+}
+
+/* Recommendation Detail */
+
+#table-recommendation{
+    table-layout: fixed;
+    margin-left: 35px;
+    border-style: hidden;
+    border-collapse: collapse;
+}
+
+#table-recommendation td
+{
+    width: 140px;
+    font-size:90%;
+    padding:10px 20px 10px 20px;
+    padding: 5px; 
+    color: #8D7518;
+    border-style: hidden;
+    vertical-align:top;
+}
+
+#table-recommendation td a
+{
+    color: #8D7518;
+    text-decoration: none;
+}
+
+/** http://midnight-coding.blogspot.com/2012/09/jquery-implementing-show-more-show-less.html#step-demo-switch
+ * Show more - Show less
+ */
+
+.text-content{
+    line-height: 1em;
+}
+
+.short-text {
+    overflow: hidden;
+    height: 1em;
+}
+
+.full-text{
+    height: auto;
+}
+
+.show-more {
+    text-align: center;
+}
