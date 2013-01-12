@@ -1,1 +1,3 @@
-Textmark is a web application that helps students in the same campus trade their books with each other directly.
+Textmark is a web application that helps students in the same campus trade their books with each other directly. It can be considered as a simple localized version of eBay.
+The web application is developed using LAMP stack and XML/XSL at the back-end and JavaScript, CSS and jQuery at the front-end. 
+Software architecture is based on MVC and Data Gateway design patterns.The application is integrated with Facebook plugins at the front-end ,and with Amazon and PayPal API at the back-end.
